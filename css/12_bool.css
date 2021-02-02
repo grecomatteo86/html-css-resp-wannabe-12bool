@@ -11,7 +11,7 @@
 }
 .debug [class*='col_']{
   border: 1px solid black;
-  height: 100px;
+  /* height: 100px; */
 }
 /*/debug_rules*/
 /*framework*/
@@ -114,7 +114,7 @@
 }
 /*/from_0_to_767px_smartphone*/
 /*from_768px_to_991_tablet*/
-@media screen and (min-width:768px max-width:991px) {
+@media screen and (min-width:768px) and (max-width:991px) {
   .col_md_1{
     width: calc( ( 100% / 12) * 1 );
   }
