@@ -15,6 +15,9 @@ h3{
   font-size: 25px;
   margin: 20px 0;
 }
+p{
+  font-size: 20px;
+}
 .img_box{
   width: 300px;
   height: 200px;
@@ -47,10 +50,37 @@ img{
     font-size: 20px;
     margin: 10px 0;
   }
+  p{
+    font-size: 15px;
+  }
   .img_box{
     width: 225px;
     height: 150px;
   }
 }
 /*/tablet*/
+/*smartphone*/
+@media screen and (max-width:768px){
+  .h2_title{
+    margin: 10px 0 5px 0;
+  }
+  h2{
+    font-size: 15px;
+  }
+  .comp_box{
+    padding: 15px;
+  }
+  h3{
+    font-size: 10px;
+    margin: 5px 0;
+  }
+  p{
+    font-size: 10px;
+  }
+  .img_box{
+    width: 150px;
+    height: 100px;
+  }
+}
+/*/smartphone*/
 /*/media_query*/
