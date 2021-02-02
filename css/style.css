@@ -1,15 +1,19 @@
-/*first_section*/
+/*generals*/
 section{
   text-align: center;
 }
-/*row_1*/
 .h2_title{
   margin: 40px 0 20px 0;
 }
-/*/row_1*/
-/*row_2*/
+h2{
+  font-size: 40px;
+}
 .comp_box{
-  padding:30px;
+  padding: 30px;
+}
+h3{
+  font-size: 25px;
+  margin: 20px 0;
 }
 .img_box{
   width: 300px;
@@ -20,5 +24,33 @@ img{
   height: 100%;
   width: auto;
 }
+/*/generals*/
+/*first_section*/
+/*row_1*/
+/*/row_1*/
+/*row_2*/
 /*row_2*/
 /*/first_section*/
+/*media_query*/
+/*tablet*/
+@media screen and (min-width:768px) and (max-width:991px){
+  .h2_title{
+    margin: 20px 0 10px 0;
+  }
+  h2{
+    font-size: 25px;
+  }
+  .comp_box{
+    padding: 25px;
+  }
+  h3{
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .img_box{
+    width: 225px;
+    height: 150px;
+  }
+}
+/*/tablet*/
+/*/media_query*/
